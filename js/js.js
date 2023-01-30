@@ -33,7 +33,7 @@ function game() {
 	for(var i=0;i<trail.length;i++) {
 		ctx.fillRect(trail[i].x*gs,trail[i].y*gs,gs-2,gs-2);
 		if(trail[i].x==px && trail[i].y==py) {
-			window.open("file:///C:/Users/mrowa2/Desktop/html/snake/dead.html", "_self");
+			window.open("https://https://html-creator.github.io/snake/dead.html", "_self");
 		}
 	}
 	trail.push({x:px,y:py});
